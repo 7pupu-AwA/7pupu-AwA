@@ -2,8 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://7pupu-awa.github.io/7pupu-AwA/photo/%E5%8D%81%E4%BA%8C%E4%BD%BF%E5%BE%92%E5%B2%A9%20(2).jpg') no-repeat center center fixed;
     background-size: cover;
+    animation: slideshow 20s infinite; /* 設置動畫，20秒播放一次，無限循環 */
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url('https://7pupu-awa.github.io/7pupu-AwA/photo/%E5%8D%81%E4%BA%8C%E4%BD%BF%E5%BE%92%E5%B2%A9%20(1).jpg'); /* 第一張圖片 */
+    }
+    25% {
+        background-image: url('https://7pupu-awa.github.io/7pupu-AwA/photo/%E5%8D%81%E4%BA%8C%E4%BD%BF%E5%BE%92%E5%B2%A9%20(2).jpg'); /* 第二張圖片 */
+    }
+    50% {
+        background-image: url('https://7pupu-awa.github.io/7pupu-AwA/photo/%E5%8D%81%E4%BA%8C%E4%BD%BF%E5%BE%92%E5%B2%A9%20(3).jpg'); /* 第三張圖片 */
+    }
+    75% {
+        background-image: url('https://7pupu-awa.github.io/7pupu-AwA/photo/%E5%8D%81%E4%BA%8C%E4%BD%BF%E5%BE%92%E5%B2%A9%20(4).jpg'); /* 第四張圖片 */
+    }
 }
 
 header {
