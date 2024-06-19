@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://7pupu-awa.github.io/7pupu-AwA/photo/%E5%8D%81%E4%BA%8C%E4%BD%BF%E5%BE%92%E5%B2%A9%20(2).jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* 使用透明度 */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8); /* 使用透明度 */
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+section:nth-of-type(even) {
+    background: rgba(228, 228, 228, 0.8); /* 使用透明度 */
+}
+
+form {
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#guestbook-entries {
+    margin-top: 2rem;
+}
+
+#guestbook-entries h3 {
+    margin-bottom: 1rem;
+}
+
+#entries-list {
+    list-style: none;
+    padding: 0;
+}
+
+#entries-list li {
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
